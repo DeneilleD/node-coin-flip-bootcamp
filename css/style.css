@@ -1,0 +1,73 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+section,body{
+  display:flex;
+  flex-direction: column;
+}
+h1, h2, form, button, div, h3{
+  align-self: center;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+body{
+  background-color: #3f0d12;
+  background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+
+}
+
+h2{
+  color:white;
+  font-size: 40px;
+  font-family: 'Tapestry', cursive;
+}
+h1{
+  color:white;
+  font-size: 40px;
+  font-family: 'Dancing Script', cursive;
+}
+label{
+  color:white;
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;  
+}
+form select{
+  background: gray;
+  color:rgb(15, 14, 14);
+  font-size: 20px;
+}
+button{
+  border: none;
+  font-size: 15px;
+  border-radius: 9px;
+  background: black;
+  color: blanchedalmond;
+  width: 30%;
+  height:40px;
+}
+button:hover{
+  background:rgb(248, 186, 186);
+  color: rgb(222, 4, 4);
+}
+
+section{
+  border-radius: 20px;
+  height:400px;
+  border: 2px solid blanchedalmond;;
+}
+
+div{
+font-size: 30px;
+}

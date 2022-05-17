@@ -2,21 +2,15 @@
 
 ### Goal: Create a simple web application that uses the fs and http modules. Use http to create the server and fs to read your html file. Include vanilla ES6 js in a script tag at the bottom of your html file. Try creating a coin flip guessing game
 
-### How to submit your code for review:
-
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+**Link to project: https://ddmemorygame.netlify.app//
+ 
+![snip](sc.PNG)
+ 
+## How It's Made:
+ 
+**Tech used:** HTML, CSS, JavaScript,Node.js
+ 
+ 
+I utilized my skills in Node.js, javaScript, HTML and CSS to make this interactive application using a server js file to act as a back end for the randomization feautues seen in this application. User's are allowed to have multiple attempts at picking the right coin side with their 50/50 chance.
+## Lessons Learned:
+I learned how to send information back to the client side using the url I created
